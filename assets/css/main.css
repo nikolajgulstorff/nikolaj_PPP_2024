@@ -3261,6 +3261,11 @@ input, select, textarea {
 	}
 
 	header {
+		position: fixed; 
+		top: 0;         /* Positions it at the top */
+    left: 0;        /* Aligns it to the left */
+    right: 0;       /* Aligns it to the right */
+	z-index: 1000;
 		display: flex;
 		justify-content: end;
 		margin: 2em;
